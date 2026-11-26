@@ -1,0 +1,14 @@
+{"at":0,"kind":"roster","record":{"scope":"line","revision":1,"members":["a","b"],"minimum":2,"required":[]}}
+{"at":1,"kind":"proposal","record":{"scope":"line","id":"x","rev":1,"roster":1,"text":"open"}}
+{"at":2,"kind":"vote","record":{"id":"x","rev":1,"roster":1,"member":"a","value":"yes"}}
+{"at":2,"kind":"vote","record":{"id":"x","rev":1,"roster":1,"member":"b","value":"yes"}}
+{"at":3,"kind":"grant","record":{"id":"x","rev":1}}
+{"at":4,"kind":"started","record":{"id":"x","rev":1}}
+{"at":5,"kind":"vote","record":{"id":"x","rev":1,"roster":1,"member":"a","value":"withdraw"}}
+{"at":6,"kind":"restart","record":{}}
+{"at":7,"kind":"proposal","record":{"scope":"line","id":"y","rev":1,"roster":1,"text":"open"}}
+{"at":8,"kind":"vote","record":{"id":"y","rev":1,"roster":1,"member":"a","value":"yes"}}
+{"at":8,"kind":"vote","record":{"id":"y","rev":1,"roster":1,"member":"b","value":"yes"}}
+{"at":9,"kind":"grant","record":{"id":"y","rev":1}}
+{"at":10,"kind":"settled","record":{"id":"x","rev":1,"state":"stopped"}}
+{"at":11,"kind":"grant","record":{"id":"y","rev":1}}

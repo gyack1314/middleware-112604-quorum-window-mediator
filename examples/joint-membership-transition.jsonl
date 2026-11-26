@@ -1,0 +1,10 @@
+{"at":0,"kind":"roster","record":{"scope":"line","revision":1,"members":["a","b","c"],"minimum":2,"required":["a"]}}
+{"at":1,"kind":"roster","record":{"scope":"line","revision":2,"prev":1,"members":["b","c","d"],"minimum":2,"required":["d"]}}
+{"at":2,"kind":"proposal","record":{"scope":"line","id":"go","rev":1,"roster":2,"text":"open"}}
+{"at":3,"kind":"vote","record":{"id":"go","rev":1,"roster":1,"member":"a","value":"yes"}}
+{"at":4,"kind":"vote","record":{"id":"go","rev":1,"roster":2,"member":"b","value":"yes"}}
+{"at":5,"kind":"grant","record":{"id":"go","rev":1}}
+{"at":6,"kind":"vote","record":{"id":"go","rev":1,"roster":1,"member":"b","value":"yes"}}
+{"at":7,"kind":"vote","record":{"id":"go","rev":1,"roster":2,"member":"d","value":"yes"}}
+{"at":8,"kind":"grant","record":{"id":"go","rev":1}}
+{"at":9,"kind":"inspect","record":{"id":"go"}}
