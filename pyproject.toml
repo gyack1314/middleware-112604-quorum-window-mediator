@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "window-confirm-middleware"
+version = "1.0.0"
+description = "联合演练共享模拟窗口的分布式确认中间件：成员调整/迟到消息下的法定人数、互斥授权与可追查执行边界"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+window-confirm = "window_confirm.cli:main"
+
+[tool.setuptools]
+packages = ["window_confirm"]
+
+[tool.unittest]
+# 运行：python3 -m unittest discover -v
